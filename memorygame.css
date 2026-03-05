@@ -1,0 +1,39 @@
+body{
+    background-color: rosybrown;
+}
+#gameBoard { 
+    width: 400px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 20px auto; 
+}
+
+.card {
+    width: 80px; 
+    height: 80px; 
+    margin: 5px; 
+    background-color: rgb(57, 56, 56);
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 40px; 
+    color: white; 
+    cursor: pointer;
+    border-radius: 8px; 
+    user-select: none;
+}
+
+.card.flipped { 
+    background-color: white; 
+    color: rgb(61, 61, 61); 
+}
+
+#winMessage { 
+    display: none; 
+    text-align: center; 
+    color: green; 
+}
+
+#gameHeader { 
+    text-align: center; 
+}

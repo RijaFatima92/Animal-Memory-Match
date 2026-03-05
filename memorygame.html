@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Memory Game</title>
+    <link rel="stylesheet" href="memorygame.css">
+</head>
+<body>
+
+<div id="gameHeader">
+    <h2>Memory Matching Game</h2>
+    <p>Moves: <span id="moves">0</span></p>
+    <p>Time: <span id="timer">0</span> seconds</p>
+</div>
+
+<div id="gameBoard"></div>
+
+<div id="winMessage">
+    <h2>You Win!</h2>
+    <button onclick="location.reload()">Play Again</button>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="memorygame.js"></script>
+</body>
+</html>
